@@ -2,11 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Table from './Test';
+import Nav from './Nav';
+import Upload from './Upload';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Nav />
+    <Table/>
+    <Upload />
   </React.StrictMode>,
   document.getElementById('root')
 );
